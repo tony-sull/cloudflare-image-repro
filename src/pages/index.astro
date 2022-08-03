@@ -1,0 +1,20 @@
+---
+import { Picture } from '@astrojs/image/components';
+import headshot from '../assets/headshot.png';
+---
+
+<html lang="eng">
+
+  <head>
+    <title>alskdfjaslkdfjaslkf</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="headshot">
+        <Picture src={headshot} widths={[300]} sizes="(max-width: 900px) 300px" alt="Anna Hsu headshot" />
+      </div>
+    </main>
+  </body>
+  
+</html>
